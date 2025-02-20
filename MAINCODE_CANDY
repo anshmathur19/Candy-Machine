@@ -1,0 +1,1013 @@
+#Candy Machine
+run = True
+while run:
+    print('Welcome')
+    print('''
+         Disclaimer: this game is case-sensitive,
+                please do not change the case while typing,
+                                                           Enjoy !!!
+             ''')
+    print('Shall we play a game? ')
+    a = input('Y or N: ')
+    if a == 'Y' or a =='y' or a == 'YES' or a == 'yes' or a == 'Yes':
+        print('Accessing system files........, starting game..........')
+    elif a == 'N' or a == 'n' or a == 'NO' or a == 'no' or a == 'No':
+        print('Ok, exiting game..........')
+        exit()
+    else:
+        print('Ok, exiting game..........')
+        exit()
+    print('Starting Candy Machine...............')
+    print('''
+            WELCOME TO
+                   CANDY MACHINE
+                  ''')
+    print('''Here is the list of candies available please choose from the list below
+         A1:Pink Candy-$2.00\tB1:Yellow Candy-$1.50\tC1:Blue Candy-$3.00
+         A2:Red Candy-$2.50\tB2:Orange Candy-$0.50\tC2:Green Candy-$1.75'''
+         )
+    b=input('''Enter Candy Number Here: ''')
+    if b=='A1' or  b=='a1':
+        print('''
+          A Pink candy, Nice Choice
+          ''')
+        print('''
+          Well You are one lucky person!
+          you get this candy with $1 OFF!!
+          ''')
+        print('''
+          Price:$1.00, JUST FOR YOU!!
+          ''')
+        print('''
+          Checking Availability.........................
+
+           ''')
+        print('''
+          Candy Available!!!!
+           ''')
+    elif b=='A2' or b=='a2':
+        print('''
+          A Red candy, Nice Choice
+          ''')
+        print('''
+          Well You are one lucky person!
+          you get this candy with $0.50 OFF!!
+          ''')
+        print('''
+          Price:$2.00, JUST FOR YOU!
+          ''')
+        print('''
+          Checking Availability.........................
+
+           ''')
+        print('''
+          Candy Available!!!!
+           ''')
+    elif b=='B1' or b=='b1':
+        print('''
+          A Yellow candy, Nice Choice
+          ''')
+        print('''
+          Price:$1.50
+          ''')
+        print('''
+          Checking Availability.........................
+
+           ''')
+        print('''
+          Candy Available!!!!
+           ''')
+    elif b=='B2' or b=='b2':
+        print('''
+          A Orange candy, Nice Choice
+          ''')
+        print('''
+          Price:$0.50
+          ''')
+        print('''
+          Checking Availability.........................
+
+           ''')
+        print('''
+          Candy Available!!!!
+           ''')
+    elif b=='C1' or b=='c1':
+        print('''
+          A Blue candy, Nice Choice
+          ''')
+        print('''
+          Well You are one lucky peron!
+          you get this candy with $1 OFF!!
+          ''')
+        print('''
+          Price:$2.00, JUST FOR YOU!!
+          ''')
+        print('''
+          Checking Availability.........................
+
+           ''')
+        print('''
+          Candy Available!!!!
+           ''')
+    elif b=='C2' or b=='c2':
+        print('''
+          A Green candy, Nice Choice
+          ''')
+        print('''
+          Price:$1.75
+          ''')
+        print('''
+          Checking Availability.........................
+
+           ''')
+        print('''
+          Candy Available!!!!
+           ''')
+    else:
+        print('''
+
+          Invalid Selection
+
+           ''')
+        print('Try Again :/')
+        exit()
+    print('How would you like to pay? Using Cash Or Card???')
+    c=input('Cash or Card: ')
+    if c=='Cash' and b=='A1':                       #Cash section
+        print('Okay so your total is......... $1.00!')#1
+    elif c=='Cash' and b=='A2':
+        print('Okay so your total is......... $2.00!')#2
+    elif c=='Cash' and b=='B1':
+        print('Okay so your total is......... $1.50!')#3
+    elif c=='Cash' and b=='B2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='Cash' and b=='C1':
+        print('Okay so your total is......... $2.00!')#4
+    elif c=='Cash' and b=='C2':
+        print('Okay so your total is......... $1.75!')#5    
+    elif c=='CASH' and b=='A1':                       #Cash section
+        print('Okay so your total is......... $1.00!')#1
+    elif c=='CASH' and b=='A2':
+        print('Okay so your total is......... $2.00!')#2
+    elif c=='CASH' and b=='B1':
+        print('Okay so your total is......... $1.50!')#3
+    elif c=='CASH' and b=='B2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='CASH' and b=='C1':
+        print('Okay so your total is......... $2.00!')#4
+    elif c=='CASH' and b=='C2':
+        print('Okay so your total is......... $1.75!')#5
+    elif c=='cash' and b=='A1':                       #Cash section
+        print('Okay so your total is......... $1.00!')#1
+    elif c=='cash' and b=='A2':
+        print('Okay so your total is......... $2.00!')#2
+    elif c=='cash' and b=='B1':
+        print('Okay so your total is......... $1.50!')#3
+    elif c=='cash' and b=='B2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='cash' and b=='C1':
+        print('Okay so your total is......... $2.00!')#4
+    elif c=='cash' and b=='C2':
+        print('Okay so your total is......... $1.75!')#5
+    elif c=='Cash' and b=='a1':                       #Cash section
+        print('Okay so your total is......... $1.00!')#1
+    elif c=='Cash' and b=='a2':
+        print('Okay so your total is......... $2.00!')#2
+    elif c=='Cash' and b=='b1':
+        print('Okay so your total is......... $1.50!')#3
+    elif c=='Cash' and b=='b2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='Cash' and b=='c1':
+        print('Okay so your total is......... $2.00!')#4
+    elif c=='Cash' and b=='c2':
+        print('Okay so your total is......... $1.75!')#5    
+    elif c=='CASH' and b=='a1':                       #Cash section
+        print('Okay so your total is......... $1.00!')#1
+    elif c=='CASH' and b=='a2':
+        print('Okay so your total is......... $2.00!')#2
+    elif c=='CASH' and b=='b1':
+        print('Okay so your total is......... $1.50!')#3
+    elif c=='CASH' and b=='b2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='CASH' and b=='c1':
+        print('Okay so your total is......... $2.00!')#4
+    elif c=='CASH' and b=='c2':
+        print('Okay so your total is......... $1.75!')#5
+    elif c=='cash' and b=='a1':                       #Cash section
+        print('Okay so your total is......... $1.00!')#1
+    elif c=='cash' and b=='a2':
+        print('Okay so your total is......... $2.00!')#2
+    elif c=='cash' and b=='b1':
+        print('Okay so your total is......... $1.50!')#3
+    elif c=='cash' and b=='b2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='cash' and b=='c1':
+        print('Okay so your total is......... $2.00!')#4
+    elif c=='cash' and b=='c2':
+        print('Okay so your total is......... $1.75!')#5
+    elif c=='Card' and b=='A1':                      #card section
+        print('Okay so your total is......... $1.00!')#11
+    elif c=='Card' and b=='A2':
+        print('Okay so your total is......... $2.00!')#22
+    elif c=='Card' and b=='B1':
+        print('Okay so your total is......... $1.50!')#33
+    elif c=='Card' and b=='B2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='Card' and b=='C1':
+        print('Okay so your total is......... $2.00!')#44
+    elif c=='Card' and b=='C2':
+        print('Okay so your total is......... $1.75!')#55
+    elif c=='CARD' and b=='A1':                      #card section
+        print('Okay so your total is......... $1.00!')#11
+    elif c=='CARD' and b=='A2':
+        print('Okay so your total is......... $2.00!')#22
+    elif c=='CARD' and b=='B1':
+        print('Okay so your total is......... $1.50!')#33
+    elif c=='CARD' and b=='B2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='CARD' and b=='C1':
+        print('Okay so your total is......... $2.00!')#44
+    elif c=='CARD' and b=='C2':
+        print('Okay so your total is......... $1.75!')#55
+    elif c=='card' and b=='A1':                      #card section
+        print('Okay so your total is......... $1.00!')#11
+    elif c=='card' and b=='A2':
+        print('Okay so your total is......... $2.00!')#22
+    elif c=='card' and b=='B1':
+        print('Okay so your total is......... $1.50!')#33
+    elif c=='card' and b=='B2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='card' and b=='C1':
+        print('Okay so your total is......... $2.00!')#44
+    elif c=='card' and b=='C2':
+        print('Okay so your total is......... $1.75!')#55
+    elif c=='Card' and b=='a1':                      #card section
+        print('Okay so your total is......... $1.00!')#11
+    elif c=='Card' and b=='a2':
+        print('Okay so your total is......... $2.00!')#22
+    elif c=='Card' and b=='b1':
+        print('Okay so your total is......... $1.50!')#33
+    elif c=='Card' and b=='b2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='Card' and b=='c1':
+        print('Okay so your total is......... $2.00!')#44
+    elif c=='Card' and b=='c2':
+        print('Okay so your total is......... $1.75!')#55
+    elif c=='CARD' and b=='a1':                      #card section
+        print('Okay so your total is......... $1.00!')#11
+    elif c=='CARD' and b=='a2':
+        print('Okay so your total is......... $2.00!')#22
+    elif c=='CARD' and b=='b1':
+        print('Okay so your total is......... $1.50!')#33
+    elif c=='CARD' and b=='b2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='CARD' and b=='c1':
+        print('Okay so your total is......... $2.00!')#44
+    elif c=='CARD' and b=='c2':
+        print('Okay so your total is......... $1.75!')#55
+    elif c=='card' and b=='a1':                      #card section
+        print('Okay so your total is......... $1.00!')#11
+    elif c=='card' and b=='a2':
+        print('Okay so your total is......... $2.00!')#22
+    elif c=='card' and b=='b1':
+        print('Okay so your total is......... $1.50!')#33
+    elif c=='card' and b=='b2':
+        print('Okay so your total is......... $0.50!')
+    elif c=='card' and b=='c1':
+        print('Okay so your total is......... $2.00!')#44
+    elif c=='card' and b=='c2':
+        print('Okay so your total is......... $1.75!')#55
+    else:
+        print('Sorry this payment method is not accepted......')
+        print('Hopefully we\'ll cover it later......')
+        print('Program Ending.............')
+        exit()
+    print('''
+
+          If you choose Card then swipe now! and if its Cash please insert
+          the money in the money holder!
+
+       ''')
+    e=input('Type the value of your selected candy!!(only numeric value...):  ')
+    if e=='1.00'and b=='A1':#add . lower
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Pink Candy        $1.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.00 |
+                |---------------------------|
+
+                ''')
+        print('''
+                    ENJOY YOUR PINK CANDY!!
+                 ''')
+    elif e=='1'and b=='A1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Pink Candy        $1.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.00 |
+                |---------------------------|
+
+                ''')
+        print('''
+                    ENJOY YOUR PINK CANDY!!
+                 ''')    
+    elif e=='1.'and b=='A1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Pink Candy        $1.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.00 |
+                |---------------------------|
+
+                ''')
+        print('''
+                    ENJOY YOUR PINK CANDY!!
+                 ''')
+    elif e=='1.0'and b=='A1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Pink Candy        $1.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.00 |
+                |---------------------------|
+
+                ''')
+        print('''
+                    ENJOY YOUR PINK CANDY!!
+                 ''')
+    elif e=='1.00'and b=='a1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Pink Candy        $1.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.00 |
+                |---------------------------|
+
+                ''')
+        print('''
+                    ENJOY YOUR PINK CANDY!!
+                 ''')
+    elif e=='1'and b=='a1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Pink Candy        $1.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.00 |
+                |---------------------------|
+
+                ''')
+        print('''
+                    ENJOY YOUR PINK CANDY!!
+                 ''')    
+    elif e=='1.'and b=='a1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Pink Candy        $1.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.00 |
+                |---------------------------|
+
+                ''')
+        print('''
+                    ENJOY YOUR PINK CANDY!!
+                 ''')
+    elif e=='1.0'and b=='a1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Pink Candy        $1.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.00 |
+                |---------------------------|
+
+                ''')
+        print('''
+                    ENJOY YOUR PINK CANDY!!
+                 ''')
+    elif e=='2.00'and b=='A2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Red Candy         $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR RED CANDY!!
+                 ''')
+    elif e=='2'and b=='A2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Red Candy         $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR RED CANDY!!
+                 ''')
+    elif e=='2.'and b=='A2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Red Candy         $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR RED CANDY!!
+                 ''')
+    elif e=='2.0'and b=='A2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Red Candy         $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR RED CANDY!!
+                 ''')    
+    elif e=='2.00'and b=='a2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Red Candy         $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR RED CANDY!!
+                 ''')
+    elif e=='2'and b=='a2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Red Candy         $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR RED CANDY!!
+                 ''') 
+    elif e=='2.'and b=='a2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Red Candy         $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR RED CANDY!!
+                 ''')
+    elif e=='2.0'and b=='a2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Red Candy         $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR RED CANDY!!
+                 ''')     
+    elif e=='1.50' and b=='B1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Yellow Candy      $1.50 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.50 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR YELLOW CANDY!!
+                 ''')
+    elif e=='1.5' and b=='B1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Yellow Candy      $1.50 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.50 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR YELLOW CANDY!!
+                 ''')
+    elif e=='1.50' and b=='b1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Yellow Candy      $1.50 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.50 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR YELLOW CANDY!!
+                 ''')
+    elif e=='1.5' and b=='b1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Yellow Candy      $1.50 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.50 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR YELLOW CANDY!!
+                 ''')
+    elif e=='0.50' and b=='B2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Orange Candy      $0.50 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $0.50 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR ORANGE CANDY!!
+                 ''')
+    elif e=='0.5' and b=='B2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Orange Candy      $0.50 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $0.50 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR ORANGE CANDY!!
+                 ''')
+    elif e=='0.50' and b=='b2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Orange Candy      $0.50 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $0.50 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR ORANGE CANDY!!
+                 ''')
+    elif e=='0.5' and b=='b2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Orange Candy      $0.50 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $0.50 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR ORANGE CANDY!!
+                 ''')
+    elif e=='2.00' and b=='C1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Blue Candy        $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR BLUE CANDY!!
+                 ''')
+    elif e=='2' and b=='C1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Blue Candy        $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR BLUE CANDY!!
+                 ''')  
+    elif e=='2.' and b=='C1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Blue Candy        $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR BLUE CANDY!!
+                 ''')
+    elif e=='2.0' and b=='C1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Blue Candy        $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR BLUE CANDY!!
+                 ''')    
+  
+    elif e=='2.00' and b=='c1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Blue Candy        $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR BLUE CANDY!!
+                 ''')
+    elif e=='2' and b=='c1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Blue Candy        $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR BLUE CANDY!!
+                 ''')    
+    elif e=='2.' and b=='c1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Blue Candy        $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR BLUE CANDY!!
+                 ''')
+    elif e=='2.0' and b=='c1':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Blue Candy        $2.00 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $2.00 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR BLUE CANDY!!
+                 ''')
+    elif e=='1.75' and b=='C2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Green Candy       $1.75 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.75 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR GREEN CANDY!!
+                 ''')
+    elif e=='1.75' and b=='c2':
+        print('Processing Payment..........')
+        print('Payment Accepted')
+        print('Printing Receipt...........')
+        print('''
+                 ___________________________
+                |        CANDY              |
+                |            MACHINE        |
+                |                           |
+                | Item                Price |
+                | 1.Green Candy       $1.75 |
+                |                           |
+                |__Subtotal_________________|
+                |                     $1.75 |
+                |---------------------------|
+                
+                ''')
+        print('''
+                    ENJOY YOUR GREEN CANDY!!
+                 ''')
+    else:
+        print('Unable To Process Payment...........')
+        exit()
+
+    print('Thank you for being our customer')
+    print('''Thank You For Playing!!!!
+
+          ''')
+    print('''Game Developed by: Yashraj
+
+          ''')
+    
+    exit_request = input("Do you want to leave? Yes or No? ")
+    exit_request.lower()
+
+    if exit_request == "Yes":
+        print("Thanks for playing, see you next time!")
+        run = False
+    if exit_request == "YES":
+        print("Thanks for playing, see you next time!")
+        run = False
+    if exit_request == "Y":
+        print("Thanks for playing, see you next time!")
+        run = False
+    if exit_request == "y":
+        print("Thanks for playing, see you next time!")
+        run = False
+    if exit_request == "yes":
+        print("Thanks for playing, see you next time!")
+        run = False
+    if exit_request == 'No':
+        run = True
+    if exit_request == 'NO':
+        run = True
+    if exit_request == 'N':
+        run = True
+    if exit_request == 'no':
+        run = True
+    if exit_request == 'n':
+        run = True
+        
